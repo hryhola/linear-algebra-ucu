@@ -3,7 +3,7 @@
 Course materials are organized into separate directories:
 
 - `labs/` for laboratory work
-- `workshop/` for workshop exercises
+- `workshops/` for workshop exercises
 
 Activate the Python environment:
 
@@ -14,7 +14,7 @@ source .venv/bin/activate
 Run workshop 2:
 
 ```sh
-python workshop/workshop2/tutorial2.py
+python workshops/workshop2/tutorial-2-result.py
 ```
 
 To recreate the environment:
