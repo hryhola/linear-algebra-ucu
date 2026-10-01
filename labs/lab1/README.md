@@ -32,7 +32,17 @@ Implemented and investigated:
 
 ### Core B — Ihor Kashuba
 
-Completed Core B: Fourier basis / DFT part of the lab.
+Implemented and investigated:
+
+* the unitary Fourier matrix using numpy broadcasting;
+* matrix-based Discrete Fourier Transform (DFT) and its inverse;
+* verification of matrix unitarity, perfect conditioning, and Parseval's identity;
+* extraction of the annual period and harmonics from the power spectrum;
+* radix-2 recursive Fast Fourier Transform (FFT) algorithm;
+* asymptotic complexity and performance comparison (Matrix DFT vs. recursive FFT vs. `np.fft.fft`);
+* frequency-domain coordinate thresholding;
+* signal compression and energy retention analysis;
+* signal denoising and optimal RMSE evaluation against a noisy baseline.
 
 ## Extensions
 
