@@ -28,6 +28,15 @@ source .venv/bin/activate
 The environment includes NumPy, SciPy, Pandas, Matplotlib, JupyterLab, and the
 Jupyter Python kernel. The `.venv/` directory is local and is not committed.
 
+## Team Members & Contribution
+
+*   **Vladyslav Hryhola**: Implemented Core A (least squares and QR), performed polynomial fitting, and conducted the conditioning analysis. Configured the project environment and organized the repository structure.
+*   **Ihor Kashuba**: Implemented Core B (discrete Fourier transform), conducted the performance comparison between the matrix DFT and recursive FFT, and handled the denoising and compression thresholding logic.
+
+## Extensions
+
+*   No extensions were attempted for this lab.
+
 ## Workshop 2 Python script
 
 From the repository root, run:
