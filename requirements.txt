@@ -4,3 +4,4 @@ pandas
 matplotlib
 jupyterlab
 ipykernel
+networkx>=3,<4

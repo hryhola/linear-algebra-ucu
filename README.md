@@ -57,3 +57,16 @@ Choose **Python (.venv: linear-algebra-ucu)** if Jupyter asks for a kernel. The
 notebooks are already configured to request this kernel. These are exercise
 notebooks with unfinished `...` sections; complete the requested code before
 using **Run All**.
+
+## Lab 2 notebooks
+
+Lab 2 covers power iteration, inverse iteration, and PageRank. Install the shared
+requirements (including NetworkX 3.x), then launch JupyterLab:
+
+```sh
+cd labs/lab2
+../../.venv/bin/python -m jupyter lab
+```
+
+Choose **Python (.venv: linear-algebra-ucu)**. See the
+[Lab 2 README](labs/lab2/README.md) for the starter status and notebook filenames.
