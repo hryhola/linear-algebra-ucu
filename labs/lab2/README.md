@@ -2,15 +2,36 @@
 
 ## Status
 
-Initial setup only. Both notebooks are unimplemented and unexecuted; all exercise
-placeholders and the supplied random seeds are preserved.
+Core A is completed and executed, with outputs saved. Core B is still
+unimplemented. The supplied random seeds are preserved. Extensions were skipped.
 
-## Team and work split
+## Team
 
-- Team members: TBD
-- Core A — Power iteration and inverse iteration: unassigned
-- Core B — Markov chains and PageRank: unassigned
-- Extension: not selected
+- **Vladyslav Hryhola** — Core A: Power iteration and inverse iteration
+- **Ihor Kashuba**
+
+## Work split
+
+### Core A — Vladyslav Hryhola
+
+Implemented and investigated:
+
+- power iteration with a residual-based stopping rule;
+- convergence-rate predictions and measured eigenvector and eigenvalue errors;
+- the effect of an ill-conditioned eigenvector matrix;
+- four cases where power iteration fails or converges slowly;
+- inverse iteration with a shift and one reused LU factorization;
+- all ten eigenpairs of the test matrix;
+- convergence rates for different shifts;
+- a shift very close to an eigenvalue and the effect of normalization.
+
+### Core B — unassigned
+
+Not yet implemented.
+
+## Extensions
+
+No optional extension was attempted.
 
 ## Environment and startup
 
@@ -35,7 +56,11 @@ files are required; the notebooks define or generate their inputs.
 
 ## Reproducibility and unfinished work
 
-All core exercises, explanations, and experiments remain to be completed.
-Before submission, record the package versions printed by the notebooks, fill in
-the team contributions and extension choice, then restart and run each notebook
-from top to bottom and save its outputs. A full clean run has not yet been verified.
+Core A runs from top to bottom in a fresh kernel, with its outputs saved.
+Its printed versions are Python 3.14.6, NumPy 2.5.3, SciPy 1.18.1 and
+Matplotlib 3.11.2. Iteration counts and last digits may differ across machines.
+No unfinished Core A tasks are known; extensions were not attempted.
+
+Core B remains unfinished and has not been verified. Before submitting the whole
+lab, complete Core B, record its printed versions (including NetworkX), fill in
+the Core B contribution, and run both notebooks from clean kernels.
