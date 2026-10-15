@@ -8,7 +8,7 @@ unimplemented. The supplied random seeds are preserved. Extensions were skipped.
 ## Team
 
 - **Vladyslav Hryhola** — Core A: Power iteration and inverse iteration
-- **Ihor Kashuba**
+- **Ihor Kashuba** — Core B: Markov chains and PageRank
 
 ## Work split
 
@@ -25,9 +25,20 @@ Implemented and investigated:
 - convergence rates for different shifts;
 - a shift very close to an eigenvalue and the effect of normalization.
 
-### Core B — unassigned
+### Core B — Ihor Kashuba
 
-Not yet implemented.
+Implemented and investigated:
+
+* column-stochastic link matrix construction and dead-end identification;
+* power iteration for Markov chains with 1-norm residual stopping criterion;
+* probability leakage through dead-end pages and its rank-one repair ($P_d$);
+* spectral diagnosis of non-uniqueness and cyclic oscillation on test graphs ($G_6$, $G_4$, $G_{2c}$);
+* damping regularization, proof of the spectral radius bound $|\lambda_2| \le \alpha$, and Perron–Frobenius uniqueness;
+* convergence rate predictions and empirical verification across different damping factors;
+* analysis of spectral sharpness: why disconnected subgraphs achieve the theoretical bound $|\lambda_2| = \alpha$;
+* matrix-free Google operator $\widetilde{P}\mathbf{x}$ using sparse diagonal column scaling;
+* large-scale PageRank execution on a $10^5$-node web graph with spider traps;
+* rank concentration in closed link structures versus raw in-degree heuristics.
 
 ## Extensions
 
