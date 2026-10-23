@@ -5,3 +5,4 @@ matplotlib
 jupyterlab
 ipykernel
 networkx>=3,<4
+scikit-learn
