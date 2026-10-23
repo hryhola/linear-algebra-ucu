@@ -6,3 +6,7 @@ __pycache__/
 
 sources/*.pdf
 tmp/*
+
+# Local instruction overrides
+/AGENTS.override.md
+/AGENTS.local.md
