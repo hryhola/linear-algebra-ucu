@@ -25,5 +25,4 @@ AI assistants were used as a study aid during learning and review.
 
 ## Known limitations and unfinished work
 
-- A2(c): the original prediction was qualitative; the numerical underflow thresholds were calculated afterward and are included in the answer.
 - No known execution failures in the completed sections. Timings and results for severely ill-conditioned matrices can differ between environments.
